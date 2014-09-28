@@ -1,0 +1,249 @@
+00_01004417 nop 
+00_01004418 nop 
+00_01004419 nop 
+00_0100441a nop 
+00_0100441b nop 
+00_0100441c mov eax, 0x10011d7
+00_01004421 jmp eax
+00_010011d7 mov eax, 0x1004423
+00_010011dc jmp eax
+00_01004423 mov edx, 0x10011d7
+00_01004428 nop 
+00_01004429 nop 
+00_0100442a nop 
+00_0100442b nop 
+00_0100442c mov eax, 0x20f8b8fa
+00_01004431 mov dword ptr [edx], eax
+00_01004433 add edx, 0x4
+00_01004436 mov eax, 0x78919080
+00_0100443b mov dword ptr [edx], eax
+00_0100443d mov eax, 0x1004400
+00_01004442 nop 
+00_01004443 nop 
+00_01004444 nop 
+00_01004445 nop 
+00_01004446 nop 
+00_01004447 jmp eax
+00_01004400 mov eax, 0x10011d6
+00_01004405 mov ecx, 0x10
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_0100440a xor byte ptr [eax+ecx*1], 0x90
+00_0100440e loop 0x100440a
+00_01004410 mov eax, 0x10011d7
+00_01004415 jmp eax
+01_010011d7 push 0x28
+01_010011d9 push 0x10010b0
+01_010011de call 0x1001374
+01_01001374 push 0x10013c4
+01_01001379 mov eax, dword ptr fs:[0x0]
+01_0100137f push eax
+01_01001380 mov dword ptr fs:[0x0], esp
+01_01001387 mov eax, dword ptr [esp+0x10]
+01_0100138b mov dword ptr [esp+0x10], ebp
+01_0100138f lea ebp, ptr [esp+0x10]
+01_01001393 sub esp, eax
+01_01001395 push ebx
+01_01001396 push esi
+01_01001397 push edi
+01_01001398 mov eax, dword ptr [ebp-0x8]
+01_0100139b mov dword ptr [ebp-0x18], esp
+01_0100139e push eax
+01_0100139f mov eax, dword ptr [ebp-0x4]
+01_010013a2 mov dword ptr [ebp-0x4], 0xffffffff
+01_010013a9 mov dword ptr [ebp-0x8], eax
+01_010013ac ret 
+01_010011e3 xor edi, edi
+01_010011e5 push edi
+01_010011e6 call dword ptr [0x1001008]
+01_010011ec cmp word ptr [eax], 0x5a4d
+01_010011f1 jnz 0x1001212
+01_010011f3 mov ecx, dword ptr [eax+0x3c]
+01_010011f6 add ecx, eax
+01_010011f8 cmp dword ptr [ecx], 0x4550
+01_010011fe jnz 0x1001212
+01_01001200 movzx eax, word ptr [ecx+0x18]
+01_01001204 cmp eax, 0x10b
+01_01001209 jz 0x100122a
+01_0100122a cmp dword ptr [ecx+0x74], 0xe
+01_0100122e jbe 0x1001212
+01_01001230 xor eax, eax
+01_01001232 cmp dword ptr [ecx+0xe8], edi
+01_01001238 setnz al
+01_0100123b mov dword ptr [ebp-0x1c], eax
+01_0100123e mov dword ptr [ebp-0x4], edi
+01_01001241 push 0x1
+01_01001243 call dword ptr [0x1001038]
+01_01001249 pop ecx
+01_0100124a or dword ptr [0x10021d0], 0xffffffff
+01_01001251 or dword ptr [0x10021d4], 0xffffffff
+01_01001258 call dword ptr [0x1001034]
+01_0100125e mov ecx, dword ptr [0x100202c]
+01_01001264 mov dword ptr [eax], ecx
+01_01001266 call dword ptr [0x1001030]
+01_0100126c mov ecx, dword ptr [0x1002028]
+01_01001272 mov dword ptr [eax], ecx
+01_01001274 mov eax, dword ptr [0x1001044]
+01_01001279 mov eax, dword ptr [eax]
+01_0100127b mov dword ptr [0x10021d8], eax
+01_01001280 call 0x1001370
+01_01001370 xor eax, eax
+01_01001372 ret 
+01_01001285 cmp dword ptr [0x1002000], edi
+01_0100128b jnz 0x1001299
+01_01001299 call 0x100135e
+01_0100135e push 0x30000
+01_01001363 push 0x10000
+01_01001368 call 0x10013be
+01_010013be jmp dword ptr [0x100103c]
+01_0100136d pop ecx
+01_0100136e pop ecx
+01_0100136f ret 
+01_0100129e push 0x1001088
+01_010012a3 push 0x1001084
+01_010012a8 call 0x1001358
+01_01001358 jmp dword ptr [0x100105c]
+01_010012ad mov eax, dword ptr [0x1002024]
+01_010012b2 mov dword ptr [ebp-0x20], eax
+01_010012b5 lea eax, ptr [ebp-0x20]
+01_010012b8 push eax
+01_010012b9 push dword ptr [0x1002020]
+01_010012bf lea eax, ptr [ebp-0x24]
+01_010012c2 push eax
+01_010012c3 lea eax, ptr [ebp-0x28]
+01_010012c6 push eax
+01_010012c7 lea eax, ptr [ebp-0x2c]
+01_010012ca push eax
+01_010012cb call dword ptr [0x1001060]
+01_010012d1 mov dword ptr [ebp-0x30], eax
+01_010012d4 push 0x1001080
+01_010012d9 push 0x100107c
+01_010012de call 0x1001358
+01_01001358 jmp dword ptr [0x100105c]
+01_010012e3 mov eax, dword ptr [ebp-0x24]
+01_010012e6 mov ecx, dword ptr [0x1001064]
+01_010012ec mov dword ptr [ecx], eax
+01_010012ee push dword ptr [ebp-0x24]
+01_010012f1 push dword ptr [ebp-0x28]
+01_010012f4 push dword ptr [ebp-0x2c]
+01_010012f7 call 0x10010dc
+01_010010dc push ebp
+01_010010dd mov ebp, esp
+01_010010df sub esp, 0x400
+01_010010e5 push ebx
+01_010010e6 push esi
+01_010010e7 push edi
+01_010010e8 push 0x1002040
+01_010010ed push 0x101
+01_010010f2 call dword ptr [0x1001028]
+01_010010f8 cmp eax, 0xffffffff
+01_010010fb jnz 0x100110e
+01_0100110e mov edi, dword ptr [ebp+0xc]
+01_01001111 xor ebx, ebx
+01_01001113 mov esi, 0x10010ac
+01_01001118 jmp 0x1001121
+01_01001121 push esi
+01_01001122 push edi
+01_01001123 push dword ptr [ebp+0x8]
+01_01001126 call 0x1001475
+01_01001475 push esi
+01_01001476 mov esi, dword ptr [0x1002004]
+01_0100147c cmp esi, dword ptr [esp+0x8]
+01_01001480 mov dword ptr [0x10021dc], 0x1002034
+01_0100148a jl 0x1001494
+01_0100148c or eax, 0xffffffff
+01_0100148f jmp 0x100155c
+01_0100155c pop esi
+01_0100155d ret 0xc
+01_0100112b cmp eax, 0xffffffff
+01_0100112e jnz 0x100111a
+01_01001130 mov eax, dword ptr [0x1002004]
+01_01001135 cmp dword ptr [edi+eax*4], 0x0
+01_01001139 jz 0x1001154
+01_01001154 push 0x400
+01_01001159 lea eax, ptr [ebp-0x400]
+01_0100115f push eax
+01_01001160 call dword ptr [0x1001024]
+01_01001166 test eax, eax
+01_01001168 jnl 0x100117d
+01_0100117d test ebx, ebx
+01_0100117f jz 0x1001199
+01_01001199 lea eax, ptr [ebp-0x400]
+01_0100119f lea edx, ptr [eax+0x1]
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a2 mov cl, byte ptr [eax]
+01_010011a4 inc eax
+01_010011a5 test cl, cl
+01_010011a7 jnz 0x10011a2
+01_010011a9 sub eax, edx
+01_010011ab push eax
+01_010011ac lea eax, ptr [ebp-0x400]
+01_010011b2 push eax
+01_010011b3 lea eax, ptr [ebp-0x400]
+01_010011b9 push eax
+01_010011ba call dword ptr [0x100101c]
+01_010011c0 lea eax, ptr [ebp-0x400]
+01_010011c6 push eax
+01_010011c7 call dword ptr [0x1001070]
+01_010011cd pop ecx
+01_010011ce push 0x0
+01_010011d0 call dword ptr [0x1001074]

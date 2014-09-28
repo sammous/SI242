@@ -1,0 +1,34 @@
+X:1
+T:Partition Virus
+M:4/4
+K:G
+V:Ocarina name=Ocarina
+%%MIDI program 79
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzA,|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzaz|azzz|zzaz|zzaz|zzaz|zzaz|zzaz|zzaz|zzaz|zzaz|zzaz|zzzz|zzzz|zzzz|zz||
+V:Celesta name=Celesta
+%%MIDI program 8
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|DzDz|DzDz|DzDz|DzDz|DzDz|DzDz|DzDz|DzDz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzD|zzzz|zzzz|zzzz|zDzz|zzzz|zCCz|zzzz|zzzz|zDzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zDzz|zzzz|zzzz|zCzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zz||
+V:Taiko name=Taiko
+%%MIDI program 116
+CCCC|Czzz|zzCC|CCzz|zzzz|CCCC|Czzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzB,|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzB,|zzB,z|B,zB,z|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzB,|zzzz|zzB,B,|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzB,z|B,zzB,|zzzz|zz||
+V:Contrabass name=Contrabass
+%%MIDI program 43
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zz||
+V:Cello name=Cello
+%%MIDI program 42
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zz||
+V:Violin name=Violin
+%%MIDI program 40
+zzzz|zCzC|zCzz|zzCC|zCCC|zzzz|zzCC|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|Czcc|zcCc|CCCz|zccc|CCcC|CCzz|czzz|Czzz|Fzzz|zzzz|CCcz|Gzzz|CCzC|CCCC|zzzz|zzcc|zzGG|zccz|zCCz|cczc|zczc|zCcc|zzCC|Cccc|zcCz|cccc|czzz|CzCz|cccz|cCzC|zzzG|zzzC|zzcz|czzz|zzzz|Czzz|Czzz|Czzz|Czzz|Czzz|Czzz|Czzz|Czzz|Czzz|zczc|zczz|czGc|zz||
+V:Trumpet name=Trumpet
+%%MIDI program 56
+zzzz|zzzz|zzzz|zzzz|B,zzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|ezzz|zzzz|zzzz|zzCz|zB,Cz|zCzC|zzCz|zzzz|zzzz|zzzz|zzzz|zzzC|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzze|zzzz|zzCz|zzzz|zzzz|zzCz|zzzz|zCzz|Czzz|zzzz|zzzz|zAzz|zAzz|zAzz|zAzz|zAzz|zAzz|zAzz|zAzz|zAzz|ezzz|zzzz|zzzz|zz||
+V:Clarinet name=Clarinet
+%%MIDI program 71
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|czzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|c'zzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zz||
+V:Bassoon name=Bassoon
+%%MIDI program 70
+zzzz|zzA,z|A,zzz|zzzz|zzzz|zzzz|zA,zz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zA,zz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzg|zzzg|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|gzzz|zA,zz|zzzz|A,zzz|zzzz|zzzz|zzzz|zA,zz|zzzz|zzzz|zzzz|zzzg|zzzA,|zzzz|zzzz|zzA,z|zzgz|zzzz|zzzB|zzzz|zzzg|zzzg|zzzg|zzzg|zzzg|zzzg|zzzg|zzzg|zzzg|zzzz|zzzz|zzzz|zz||
+V:Oboe name=Oboe
+%%MIDI program 68
+zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zEzE|zEzE|zEzE|zEzE|zEzE|zEzE|zEzE|zEzE|zzzz|Czzz|zzzz|zzzz|zzzz|zzBz|zCzz|zzzz|zzB,z|zzzz|zzzC|zzzC|zzCz|zzzz|CzBz|zCzz|Czzz|BzzC|zzzz|zzzz|zzzz|Czzz|Czzz|zzzz|Czzz|zzzz|zCzz|zzzz|zzzC|zzzz|zzzz|Bzzz|zB,zz|zCzz|zB,zz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzzz|zzCz|zCzz|Cz||
